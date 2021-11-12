@@ -1,0 +1,38 @@
+/* font-family: 'Noto Serif', serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+.container{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    max-width: 980px;
+    margin: auto;
+}
+body{
+    margin: 0;
+}
+
+/* Header */
+.header__container{
+    background-image: url(/img/header/background/background-img.png);
+    width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+@media(min-width: 340px) {
+        .nav__link__container{
+            display: none;
+        }
+        .nav__menu__container{
+            display: none;
+        }
+        .nav_logo_container{
+            padding-left: 25px  ;
+        }
+        .header__brand__container{
+            display: none;
+        }
+}
