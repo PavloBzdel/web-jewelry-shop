@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap"
         rel="stylesheet">
@@ -24,41 +23,62 @@
                     <a href="#" class="nav__link">Вакансии</a>
                 </div>
                 <div class="nav_logo_container">
-                    <img class="nav__logo" src="img/header/images/logo-header.png" alt="logo" >
+                    <img class="nav__logo" src="img/header/images/logo-header.png" alt="logo">
                     <ul class="nav__burger__menu">
                         <li><a class="menuItem" href="#">Контрагентам</a></li>
                         <li><a class="menuItem" href="#">Дизайнерам</a></li>
                         <li><a class="menuItem" href="#">Вакансии</a></li>
                         <li><a class="menuItem" href="#">Вход/Регистрация</a></li>
-                      </ul>
-                      <button class="hamburger"></button>
+                        <li class="menu__icon__container">
+                            <a href="#"><img  id="img__icon__burger__user" src="img/header/icon/icon-user-burger.png" alt="icon user"></a>
+                            <a href="#"><img  id="img__icon__burger__like" src="img/header/icon/icon-like-burger.png" alt="icon heart"></a>
+                        </li>
+                        <li class="menu__social__container">
+                            <a class="social__burger" href="#"><img id="youtube__icon__burger" src="img/header/icon/icon-youtube-burger.png" alt="youtube icon"></a>
+                            <a class="social__burger" href="#"><img src="img/header/icon/icon-vk-burger.png" alt="vk icon"></a>
+                            <a class="social__burger" href="#"><img src="img/header/icon/icon-facebook-burger.png" alt="facebook icon"></a>
+                            <a class="social__burger" href="#"><img src="img/header/icon/icon-telegram-burger.png" alt="telegram icon"></a>
+                            <a class="social__burger" href="#"><img src="img/header/icon/icon-etsy-logo-burger.png" alt="etsy icon"></a>
+                        </li>
+                    </ul>
+                    <a class="hamburger">
+                        <!-- material icons https://material.io/resources/icons/ -->
+                        <i class="menuIcon material-icons">menu_open</i>
+                        <i class="closeIcon material-icons">close</i>
+                    </a>
                 </div>
                 <div class="nav__menu__container">
-                    <div class="nav__menu">
-                        <img class="nav__menu__icon" src="img/header/icon/icon-search.png" alt="search icon" >
-                        <div class="nav__menu__text">Поиск</div>
+                    <div class="nav__menu__icon">
+                        <img id="nav__search__icon" class="nav__menu__icon" src="img/header/icon/icon-search.png" alt="search icon">
+                        <a class="nav__menu__text">Поиск</a>
                     </div>
                     <div class="nav__menu">
-                        <div class="nav__menu__text">Вход/Регистрация</div>
+                        <a class="nav__menu__text">Вход/Регистрация</a>
                     </div>
-                    <div class="nav__menu">
-                        <img class="nav__menu__icon" src="img/header/icon/icon-user.png" alt="logo user" >
-                        <img class="nav__menu__icon" src="img/header/icon/icon-like.png" alt="logo heart" >
+                    <div class="nav__menu__icon">
+                        <img id="nav__user__icon" class="nav__menu__icon" src="img/header/icon/icon-user.png" alt="logo user">
+                        <img class="nav__menu__icon" src="img/header/icon/icon-like.png" alt="logo heart">
                     </div>
                 </div>
             </nav>
             <div class="header__content">
                 <p class="header__content__title">Долго, дорого, богато!</p>
-                <button class="header__button">каталог изделий </button>
+                <a class="header__button">каталог изделий</a>
             </div>
         </div>
         <div class="header__brand__container">
-            <div class="header__brand"><img class="header__brand__logo" src="img/header/images/brand-header.png" alt="logo brand"></div>
-            <div class="header__brand"><img class="header__brand__logo" src="img/header/images/brand-header.png" alt="logo brand"></div>
-            <div class="header__brand"><img class="header__brand__logo" src="img/header/images/brand-header.png" alt="logo brand"></div>
-            <div class="header__brand"><img class="header__brand__logo" src="img/header/images/brand-header.png" alt="logo brand"></div>
-            <div class="header__brand"><img class="header__brand__logo" src="img/header/images/brand-header.png" alt="logo brand"></div>
-            <div class="header__brand"><img class="header__brand__logo" src="img/header/images/brand-header.png" alt="logo brand"></div>
+            <div class="header__brand"><img class="header__brand__logo" src="img/header/images/brand-header.png"
+                    alt="logo brand"></div>
+            <div class="header__brand"><img class="header__brand__logo" src="img/header/images/brand-header.png"
+                    alt="logo brand"></div>
+            <div class="header__brand"><img class="header__brand__logo" src="img/header/images/brand-header.png"
+                    alt="logo brand"></div>
+            <div class="header__brand"><img class="header__brand__logo" src="img/header/images/brand-header.png"
+                    alt="logo brand"></div>
+            <div class="header__brand"><img class="header__brand__logo" src="img/header/images/brand-header.png"
+                    alt="logo brand"></div>
+            <div class="header__brand"><img class="header__brand__logo" src="img/header/images/brand-header.png"
+                    alt="logo brand"></div>
         </div>
     </header>
     <script src="js/index.js"></script>
