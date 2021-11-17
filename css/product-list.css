@@ -50,12 +50,46 @@ font-family: 'Roboto Condensed', sans-serif; */
     border: var(--black-color) solid 1px;
     transition: 0.5s;
 }
+.info__paragraph{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+.input {
+        opacity: 0;
+        position: absolute;
+        pointer-events: none;
+}
+.input:focus ~ label {
+    outline: -webkit-focus-ring-color auto 5px;
+}
+.input:checked + p {
+    -webkit-line-clamp: unset;
+  }
+  
+.input:checked ~ label {
+    display: none;
+  }
+  label {
+    border-radius: 4px;
+    padding: 0.2em 0.6em;
+    background-color: var(--gray-color);
+    color: var(--white-color);
+    font-size: 0.8em;
+  }
+  label:hover{
+      background-color: var(--hoverText-color);
+      color: var(--black-color);
+      transition: 0.5s;
+  }
 .info__text{
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
     color: var(--black-color);
-    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: scroll;
 }
 .content__info__container{
     padding: 150px 0;
