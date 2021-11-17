@@ -153,19 +153,18 @@ body{
 }
 .nav__link:hover{
     text-decoration: underline;
-    color: var(--black-color);
+    color: var(--hoverText-color);
     transition: 0.5s;
 }
 .nav__menu__text:hover{
-    color: var(--black-color);
+    color: var(--hoverText-color);
     text-decoration: underline;
     transition: 0.5s;
 }
 .nav__menu__text{
+    text-decoration: none;
+    cursor: pointer;
     color: var(--white-color);
-}
-.nav__logo{
-    margin-top: 35px ;
 }
 .nav__menu__container{
     color: var(--white-color);
@@ -174,10 +173,16 @@ body{
     padding-left: 60px;
 }
 .nav__menu__icon{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     align-items: center;
-    cursor: pointer;
+}
+.menu__icon{
+    color: var(--white-color);
+    padding-right: 15px;
+}
+.menu__icon:hover{
+    color: var(--hoverText-color);
+    transition: 0.5s;
 }
 .nav__menu{
     display: grid;
@@ -189,10 +194,6 @@ body{
 #nav__search__icon{
     position: relative;
     left: 35px;
-}
-#nav__user__icon{
-    position: relative;
-    left: 20px;
 }
 .header__brand__container{
     display: flex;
@@ -215,7 +216,7 @@ body{
             display: none;
         }
         .nav_logo_container{
-            padding-left: 25px  ;
+            padding-left: 10px  ;
         }
         .header__brand__container{
             display: none;
@@ -754,7 +755,11 @@ body{
 }
 .card__icon{
     padding-right: 10px;
-    cursor: pointer;
+    color: var(--black-color);
+}
+.card__icon:hover{
+    color: var(--hoverText-color);
+    transition: 0.5s;
 }
 #card__icon__first{
     position: relative;

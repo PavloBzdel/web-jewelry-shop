@@ -1,0 +1,126 @@
+/* font-family: 'Noto Serif', serif;
+font-family: 'Roboto Condensed', sans-serif; */
+:root{
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --gray-color: #333333;
+    --hoverText-color: #868686;
+}
+/* Header */
+
+.nav__logo{
+    padding: 20px;
+}
+.dropDown__container{
+    display: flex;
+    justify-content: center;
+}
+.button__drop__down{
+    padding-right: 20px;
+}
+.content__card{
+    padding-top: 105px;
+    text-align: center;
+}
+.card__title{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 25px 0 10px 0;
+}
+.card__text{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.card__button{
+    padding-bottom: 95px;
+}
+.button__card, .content__button{
+    text-transform: uppercase;
+    border: none;
+    color: var(--white-color);
+    background-color: var(--gray-color);
+    padding: 10px 20px;
+}
+.button__card:hover, .content__button:hover{
+    background-color: var(--white-color);
+    color: var(--black-color);
+    border: var(--black-color) solid 1px;
+    transition: 0.5s;
+}
+.info__text{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--black-color);
+    word-wrap: break-word;
+}
+.content__info__container{
+    padding: 150px 0;
+}
+/* media */
+@media(min-width: 341px) {
+    #drop__down__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .content__cards__container{
+        display: grid;
+        grid-template-rows: repeat();
+    }
+    .info__text{
+        display: none;
+    }
+    .info__icon__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-self: center;
+    }
+    .icon__text{
+        justify-self: center;
+        text-align: center;
+    }
+}
+@media(min-width: 541px){
+    #drop__down__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .content__cards__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+    .info__text{
+        display: block;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+}
+@media(min-width: 1024px){
+    #drop__down__container{
+        display: flex;
+        flex-direction: row;
+    }
+    .content__cards__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .content__card__border{
+        border-bottom: var(--black-color)solid 1px;
+    }
+    .info__text{
+        display: block;
+        text-align: center;
+        width: 540px;
+        height: 240px;
+        padding-right: 103px;
+    }
+    .content__info__container{
+        display: flex;
+    }
+    .icon__text{
+        padding: 0 20px 20px 0;
+    }
+}
