@@ -130,6 +130,7 @@ body{
     margin-bottom: 119px;
     border: solid var(--white-color) 1px;
     cursor: pointer;
+    text-decoration: none;
 }
 .header__button:hover{
     border: solid var(--black-color) 1px;
@@ -162,6 +163,7 @@ body{
     transition: 0.5s;
 }
 .nav__menu__text{
+    padding-right: 7px;
     text-decoration: none;
     cursor: pointer;
     color: var(--white-color);
