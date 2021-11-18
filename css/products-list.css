@@ -167,4 +167,11 @@ font-family: 'Roboto Condensed', sans-serif; */
     .icon__text{
         padding: 0 20px 20px 0;
     }
+    .content__card:hover{
+        box-shadow: 10px 10px 10px var(--hoverText-color);
+        transition: 0.5s;
+    }
+    .content__button__container{
+        margin-top: 15px;
+    }
 }

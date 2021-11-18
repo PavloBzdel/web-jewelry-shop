@@ -488,7 +488,7 @@ body{
         cursor: pointer;
     }
     .content__card__text:hover{
-        text-decoration: underline;
+        text-shadow: 5px 5px 5px var(--white-color);
         transition: 0.5s;
     }
    
@@ -582,7 +582,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .gallery__card:hover{
-    border: var(--gray-color) solid 1px;
+    box-shadow: 7px 7px 7px var(--hoverText-color);
 }
                                             /* Content */
 .content__title{
