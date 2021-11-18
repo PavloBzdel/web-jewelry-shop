@@ -548,6 +548,7 @@ body{
     background-color: var(--white-color);
     color: var(--black-color);
     text-transform: uppercase;
+    text-decoration: none;
 }
 .info__button:hover{
     background-color: var(--gray-color);
