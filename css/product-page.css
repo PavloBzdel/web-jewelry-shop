@@ -1,0 +1,210 @@
+/* font-family: 'Noto Serif', serif;
+font-family: 'Roboto Condensed', sans-serif; */
+:root{
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --grey-color: #333333;
+    --hard-grey:  #979797;
+    --hoverText-color: #868686;
+}
+
+/* Product */
+
+.product__title__container{
+    display: flex;
+    padding: 60px 0;
+    justify-content: center;
+    align-items: center;    
+}
+.product__title__inner{
+    display: flex;
+    padding-right: 15px;
+}
+.product__inner__text{
+    color: var(--black-color);
+    padding-right: 15px ;
+}
+.product__inner__text:hover{
+    text-decoration: none;
+    color: var(--black-color);
+}
+.information__title__container{
+    margin-top: 40px;
+    text-align: center;
+}
+.information__title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--grey-color);
+}
+.information__subtitle__container{
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;
+}
+.span__subtitle{
+    padding-left: 10px;
+}
+.information__subtitle__first, .information__subtitle__second{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--hard-grey);
+}
+.information__subtitle__first{
+    padding-right: 5px;
+}
+.information__content__container{
+    margin: 0 5px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--grey-color);
+}
+.information__price{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--grey-color);
+}
+.information__price__container{
+    padding: 30px 0; 
+    margin-left: 10px;
+}
+.information__button__white{
+    padding: 8px 15px;
+    margin-left: 25px;
+}
+.information__button__white:hover{
+    border: var(--hoverText-color) solid 1px;
+    padding: 8px 15px;
+}
+.product__content__information{
+    margin-top: 35px;
+    border: var(--black-color) solid 1px;
+}
+.content__information__container{
+    margin: 10px;
+    border: var(--black-color) solid 1px;
+}
+.information__button__container{
+    margin-left: 5px;
+}
+.content__photo__min{
+    margin-top: 20px;
+}
+.product__description__container{
+    display: flex;
+    justify-content: center;
+}
+/* album */
+.album__container{
+    text-align: center;
+}
+.album__title{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    color: var(--grey-color);
+}
+.album__subtitle{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: var(--grey-color);
+}
+.album__subtitle__container{
+    margin-bottom: 95px;
+}
+.card__title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--grey-color);
+}
+.card__subtitle{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    color: var(--grey-color);
+}
+.album__card__button{
+    margin-bottom: 20px;
+}
+/* media */
+
+@media(min-width: 341px) {
+    .product__title__container{
+        margin-left: 25px;
+       
+    }
+    #carousel__images__main{
+        margin-right: 10px;
+    }
+}
+@media(min-width: 541px){
+    #carousel__images__main{
+        width: 100vw;
+        min-width: 100vw;
+    } 
+    .content__photo__min{
+        display: flex;
+        justify-content: space-between;
+    }
+    #carousel__images__min__first{
+        margin-left: 10px;
+    }
+    .album__cards__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+    }
+}
+@media(max-width: 1022px){
+    #carousel__images__main{
+        width: 100vw;
+        min-width: 100vw;
+    }
+}
+@media(min-width: 1024px){
+    #carousel__images__main{
+        width: 100%;
+        min-width: 100%;
+    }
+    .product__content__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .information__title__container{
+        text-align: start;
+        padding-left: 30px;
+    }
+    .information__subtitle__container{
+        text-align: start;
+        padding-left: 30px;
+        justify-content: start;
+    }
+    .product__content__information{
+        margin: 0 0 0 28px;
+        border: var(--black-color) solid 1px;
+    }
+    .information__button__container{
+        margin: 0 0 25px 30px;
+    }
+    .information__price__container{
+        margin-left: 30px;
+    }
+    #carousel__images__min__first{
+        margin: 0;
+    }
+    .carousel__images__min{
+        margin-left: 5px;
+    }  
+    .album__cards__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5px;
+        margin-bottom: 155px;
+    }
+}

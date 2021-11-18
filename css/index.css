@@ -201,7 +201,7 @@ body{
     display: flex;
     justify-content: space-between;
     border-top: solid var(--white-color) 1px;
-    padding: 15px 0 15px 0;
+    padding: 15px 0 30px 0;
 }
 .header__brand{
     border-right: var(--white-color) solid 1.5px;

@@ -16,6 +16,15 @@ font-family: 'Roboto Condensed', sans-serif; */
     justify-content: center;
     padding-top: 50px;
 }
+.dropdown__text{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--black-color);
+}
+.dropdown__text:hover{
+    color: var(--hoverText-color);
+}
 .button__drop__down{
     padding-right: 20px;
 }
