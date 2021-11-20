@@ -132,6 +132,10 @@ font-family: 'Roboto Condensed', sans-serif; */
 .album__card__button{
     margin-bottom: 20px;
 }
+.album__card:hover{
+    box-shadow: 10px 10px 10px var(--hoverText-color);
+    transition: 0.5s;
+}
 /* media */
 
 @media(min-width: 341px) {

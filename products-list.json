@@ -1,0 +1,64 @@
+[
+    {
+        "id":"1",
+        "accessorize": "Подвеска",
+        "brand": "Dolce & Gabanna",
+        "type": "Категория:  Подвески Бренд:  Dolce & Gabbara",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
+        "price": "10 000 $",
+        "imagesB":"img/product-page/brand/dolce-gabbana.jpg",
+        "quantity": 1
+    
+
+    },
+    {
+        "id":"2",
+        "accessorize": "Подвеска",
+        "brand": "Tiffany",
+        "type": "Категория:  Подвески Бренд:  Tiffany",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
+        "price": "3 000 $" ,
+        "imagesB":"img/product-page/brand/tiffany.jpg",
+        "quantity": 1
+    },
+    {
+        "id":"3",
+        "accessorize": "Подвеска",
+        "brand": "Cartier",
+        "type": "Категория:  Подвески Бренд:  Cartier",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
+        "price": "15 000 $",
+        "imagesB":"img/product-page/brand/cartier.jpg",
+        "quantity": 1
+    },
+    {
+        "id":"4",
+        "accessorize": "Подвеска",
+        "brand": "Pandora",
+        "type": "Категория:  Подвески Бренд:  Pandora",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
+        "price": "2 500 $",
+        "imagesB":"img/product-page/brand/pandora.jpg",
+        "quantity": 1
+    },
+    {
+        "id":"5",
+        "accessorize": "Подвеска",
+        "brand": "Christian Dior",
+        "type": "Категория:  Подвески Бренд:  Christian Dior",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
+        "price": "20 000 $",
+        "imagesB":"img/product-page/brand/dior.jpg",
+        "quantity": 1
+    },
+    {
+        "id":"6",
+        "accessorize": "Подвеска",
+        "brand": "Chanel",
+        "type": "Категория:  Подвески Бренд:  Chanel",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
+        "price": "18 000 $",
+        "imagesB":"img/product-page/brand/chanel.jpg",
+        "quantity": 0
+    }
+]
