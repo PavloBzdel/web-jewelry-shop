@@ -6,10 +6,22 @@
     productsContainer.innerHTML = `
     <div class="product__content__carousel">
         <div class="content__photo__max">
+            
+            <div class="content__big__arrow prev__arrow">
+                <svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5 2L1.5 13L12.5 24" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path></svg>
+                <path d="M12.5 2L1.5 13L12.5 24" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path></svg>
+            </div>   
+            
             <img id="carousel__images__main" src="${product.imagesB}" alt="${product.brand}">
+            
+            <div class="content__big__arrow next__arrow">
+                <svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.5 24L12.5 13L1.5 2" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path></svg>
+                <path d="M1.5 24L12.5 13L1.5 2" stroke="#464C5C" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"></path></svg>
+            </div>
+        
         </div>
         <div class="content__photo__min">
-            <img class="carousel__images__min" id="carousel__images__min__first" src="${product.imagesS}" alt="${product.brand}">
+            <img class="carousel__images__min active-arrow" id="carousel__images__min__first" src="${product.imagesS}" alt="${product.brand}">
             <img class="carousel__images__min" src="${product.imagesS}" alt="${product.brand}">
             <img class="carousel__images__min" src="${product.imagesS}" alt="${product.brand}">
         </div>

@@ -141,6 +141,20 @@ font-family: 'Roboto Condensed', sans-serif; */
     height: 400px;
     object-fit: fill;
 }
+.content__photo__max{
+    display: flex;
+    margin-right: 15px;
+}
+.content__big__arrow{
+    display: flex;
+    align-items: center;
+}
+.content__big__arrow{
+    cursor: pointer;
+}
+.active-arrow{
+    box-shadow: 5px 5px 5px var(--hoverText-color);
+}
 /* media */
 
 @media(min-width: 341px) {
