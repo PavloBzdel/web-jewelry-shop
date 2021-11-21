@@ -136,6 +136,11 @@ font-family: 'Roboto Condensed', sans-serif; */
     box-shadow: 10px 10px 10px var(--hoverText-color);
     transition: 0.5s;
 }
+#carousel__images__main{
+    width: 270px;
+    height: 400px;
+    object-fit: fill;
+}
 /* media */
 
 @media(min-width: 341px) {
