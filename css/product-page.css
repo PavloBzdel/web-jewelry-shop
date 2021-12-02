@@ -136,11 +136,6 @@ font-family: 'Roboto Condensed', sans-serif; */
     box-shadow: 10px 10px 10px var(--hoverText-color);
     transition: 0.5s;
 }
-#carousel__images__main{
-    width: 270px;
-    height: 400px;
-    object-fit: fill;
-}
 .content__photo__max{
     display: flex;
     margin-right: 15px;
@@ -155,6 +150,20 @@ font-family: 'Roboto Condensed', sans-serif; */
 .active-arrow{
     box-shadow: 5px 5px 5px var(--hoverText-color);
 }
+.prev__arrow{
+    position: relative;
+    right: 10px;
+}
+.carouse__img__page{
+    display: none;
+    width: 500px;
+    height: 400px;
+}
+.active__img{
+    display: block;
+    width: 500px;
+    height: 400px;
+}
 /* media */
 
 @media(min-width: 341px) {
@@ -162,15 +171,31 @@ font-family: 'Roboto Condensed', sans-serif; */
         margin-left: 25px;
        
     }
-    #carousel__images__main{
+    .carouse__img__page{
         margin-right: 10px;
+    }
+    .footer__info__cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 40px;
+    }
+    .information__button__container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .button__card{
+        width: 120px;
+        height: 40px;
+        margin-bottom: 25px;
+    }
+    .info__button{
+        width: 170px;
+        height: 40px;
     }
 }
 @media(min-width: 541px){
-    #carousel__images__main{
-        width: 100vw;
-        min-width: 100vw;
-    } 
+     
     .content__photo__min{
         display: flex;
         justify-content: space-between;
@@ -183,18 +208,15 @@ font-family: 'Roboto Condensed', sans-serif; */
         grid-template-columns: 1fr 1fr;
         column-gap: 5px;
     }
+    .footer__info__cards{
+        grid-template-columns: 1fr 1fr;
+        padding-left: 40px;
+    }
 }
 @media(max-width: 1022px){
-    #carousel__images__main{
-        width: 100vw;
-        min-width: 100vw;
-    }
+
 }
 @media(min-width: 1024px){
-    #carousel__images__main{
-        width: 100%;
-        min-width: 100%;
-    }
     .product__content__container{
         display: flex;
         justify-content: space-between;
@@ -229,5 +251,9 @@ font-family: 'Roboto Condensed', sans-serif; */
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 5px;
         margin-bottom: 155px;
+    }
+    .footer__info__cards{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-left: 40px;
     }
 }

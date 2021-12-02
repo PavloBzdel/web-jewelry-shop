@@ -7,7 +7,11 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
         "price": "10 000 $",
         "imagesB":"img/product-page/brand/dolce-gabbana.jpg",
+        "imagesBS":"img/product-page/brand/dolce-gabbana-front.jpg",
+        "imagesBT":"img/product-page/brand/dolce-gabbana-from-below.jpg",
         "imagesS":"img/product-page/brand-small/dolce-gabbana.jpg",
+        "imagesSS":"img/product-page/brand-small/dolce-gabbana-front.jpg",
+        "imagesST":"img/product-page/brand-small/dolce-gabbana-from-below.jpg",
         "quantity": 1
     
 
@@ -20,7 +24,11 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
         "price": "3 000 $" ,
         "imagesB":"img/product-page/brand/tiffany.jpg",
+        "imagesBS":"img/product-page/brand/tiffany-front.jpg",
+        "imagesBT":"img/product-page/brand/tiffany-chain.jpg",
         "imagesS":"img/product-page/brand-small/tiffany.jpg",
+        "imagesSS":"img/product-page/brand-small/tiffany-front.jpg",
+        "imagesST":"img/product-page/brand-small/tiffany-chain.jpg",
         "quantity": 1
     },
     {
@@ -31,7 +39,11 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
         "price": "15 000 $",
         "imagesB":"img/product-page/brand/cartier.jpg",
+        "imagesBS":"img/product-page/brand/cartier-zoom.jpg",
+        "imagesBT":"img/product-page/brand/cartier-zoom-zoom.jpg",
         "imagesS":"img/product-page/brand-small/cartier.jpg",
+        "imagesSS":"img/product-page/brand-small/cartier-zoom.jpg",
+        "imagesST":"img/product-page/brand-small/cartier-zoom-zoom.jpg",
         "quantity": 1
     },
     {
@@ -42,7 +54,11 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
         "price": "2 500 $",
         "imagesB":"img/product-page/brand/pandora.jpg",
+        "imagesBS":"img/product-page/brand/pandora-front.jpg",
+        "imagesBT":"img/product-page/brand/pandora-all.jpg",
         "imagesS":"img/product-page/brand-small/pandora.jpg",
+        "imagesSS":"img/product-page/brand-small/pandora-front.jpg",
+        "imagesST":"img/product-page/brand-small/pandora-all.jpg",
         "quantity": 1
     },
     {
@@ -53,7 +69,11 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
         "price": "20 000 $",
         "imagesB":"img/product-page/brand/dior.jpg",
+        "imagesBS":"img/product-page/brand/dior-back.jpg",
+        "imagesBT":"img/product-page/brand/dior-woman.jpg",
         "imagesS":"img/product-page/brand-small/dior.jpg",
+        "imagesSS":"img/product-page/brand-small/dior-back.jpg",
+        "imagesST":"img/product-page/brand-small/dior-woman.jpg",
         "quantity": 1
     },
     {
@@ -64,7 +84,11 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
         "price": "18 000 $",
         "imagesB":"img/product-page/brand/chanel.jpg",
+        "imagesBS":"img/product-page/brand/chanel-zoom.jpg",
+        "imagesBT":"img/product-page/brand/chanel-chain.jpg",
         "imagesS":"img/product-page/brand-small/chanel.jpg",
+        "imagesSS":"img/product-page/brand-small/chanel-zoom.jpg",
+        "imagesST":"img/product-page/brand-small/chanel-chain.jpg",
         "quantity": 0
     }
 ]
