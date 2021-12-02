@@ -5,6 +5,8 @@ font-family: 'Roboto Condensed', sans-serif; */
     --black-color: #000000;
     --gray-color: #333333;
     --hoverText-color: #868686;
+    --blue-color: rgb(25, 140, 255);
+    --blue-color-hover: rgb(0, 117, 235);
 }
 *{
     box-sizing: border-box;
@@ -210,15 +212,7 @@ body{
     border-right: none;
 }
                                     /* Media */
-
-@media(min-width: 341px) {
-    
-    .footer__info__cards{
-        display: grid;
-        grid-template-columns: 1fr;
-        padding-left: 40px;
-    }
-}   
+  
 @media(max-width: 341px) {
         .nav__link__container{
             display: none;
@@ -274,13 +268,7 @@ body{
     .form__input{
         padding-bottom: 40px;
     }
-    
-}
-@media(min-width: 541px){
-    .footer__info__cards{
-        grid-template-columns: 1fr 1fr;
-        padding-left: 40px;
-    }
+   
 }
 @media(max-width: 541px) {
     .nav__link__container{
@@ -340,6 +328,10 @@ body{
     .footer__info__cards{
         grid-template-columns: 1fr 1fr;
         padding-left: 40px;
+    }
+    .modal__form__container{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
     }
 }
 @media(max-width: 768px) {
@@ -792,3 +784,78 @@ body{
     position: relative;
     top: 3px;
 }
+/* Modal */
+.modal {
+    display: none; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal__content {
+    background-color: var(--white-color);
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid var(--gray-color);
+    width: 80%; 
+    color: var(--white-color);
+  }
+  .modal__form{
+      background-color: var(--gray-color);
+  }
+  .close {
+    color: var(--white-color);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  .close:hover,
+  .close:focus {
+    color: var(--black-color);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal__form{
+      border: 1px solid var(--hoverText-color);
+  }
+  .modal__form__text{
+      text-align: center;
+      margin: 15px 0;
+  }
+  .modal__form__container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .modal__form__label{
+      margin-left: 15px;
+  }
+  #form__check__input{
+      position: relative;
+      top: 2px;
+      margin-left: 15px;
+  }
+  .form__href__container{
+      text-align: center;
+      margin: 15px;
+  }
+  
+  #form__href{
+    color: var(--blue-color);
+  }
+  #form__href:hover{
+      color: var(--blue-color-hover);
+  }
+  .clearfix{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+  }
+  .cancelbtn{
+      margin-right: 10px;
+  }
+ 

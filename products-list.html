@@ -63,12 +63,61 @@
                         <a class="nav__menu__text">Поиск</a>
                     </div>
                     <div class="nav__menu">
-                        <a class="nav__menu__text">Вход/Регистрация</a>
+                        <a id="myBtn" class="nav__menu__text">Вход/Регистрация</a>
                     </div>
                     <div class="nav__menu__icon">
-                        <a href="#" class="menu__icon"><i class="fas fa-user"></i></a>
+                        <a href="#" class="menu__icon"><i class="fas fa-shopping-basket"></i></a>
                         <a href="#" class="menu__icon"><i class="fas fa-heart"></i></a>
                         <a href="./index.html" class="menu__icon"><i class="fas fa-home"></i></a>
+                    </div>
+                </div>
+                <div id="myModal" class="modal">
+                    <div class="modal__content">
+                        <span class="close">&times;</span>
+                        <form class="modal__form" action="action_page.js">
+                            <div class="container ">
+                                <div class="modal__form__text">
+                                    <h1>Форма регистрации</h1>
+                                    <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+                                    <hr>
+                                </div>
+                                <div class="modal__form__container">
+                                    <div>
+                                        <label class="modal__form__label" for="email"><b>Email:</b></label>
+                                        <input class="modal__form__input" type="text" placeholder="Введите вашу почту"
+                                            name="email" required>
+                                    </div>
+                                    <div>
+                                        <label class="modal__form__label" for="psw"><b>Password:</b></label>
+                                        <input class="modal__form__input" type="password" placeholder="Введите пароль"
+                                            name="psw" required>
+                                    </div>
+                                    <div>
+                                        <label class="modal__form__label" for="psw-repeat"><b>Repeat
+                                                password</b></label>
+                                        <input class="modal__form__input" type="password" placeholder="Повторите пароль"
+                                            name="psw-repeat" required>
+                                    </div>
+                                    <div>
+                                        <label>
+                                            <input id="form__check__input" type="checkbox" checked="checked"
+                                                name="remember"> Запомнить меня
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form__href__container">
+                                    <p>Создавая учетную запись, вы соглашаетесь с нашим <a id="form__href"
+                                            href="#">Условия и конфиденциальность</a>.</p>
+                                </div>
+
+
+                                <div class="clearfix">
+                                    <button type="button" id="cancel__button"
+                                        class="cancelbtn info__button ">Отменить</button>
+                                    <button type="submit" class="signupbtn info__button">Регистрация</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </nav>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +15,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/contact-page.css">
 </head>
+
 <body>
     <header class="header__container">
         <div class="container">
@@ -37,16 +39,17 @@
                                     alt="icon heart"></a>
                         </li>
                         <li class="menu__social__container">
-                            <a class="social__burger" href="https://www.youtube.com/" target="_blank" ><img id="youtube__icon__burger"
-                                    src="img/header/icon/icon-youtube-burger.png" alt="youtube icon"></a>
-                            <a class="social__burger" href="https://vk.com/?lang=uk" target="_blank"><img src="img/header/icon/icon-vk-burger.png"
-                                    alt="vk icon"></a>
-                            <a class="social__burger" href="https://www.facebook.com/" target="_blank"><img src="img/header/icon/icon-facebook-burger.png"
-                                    alt="facebook icon"></a>
-                            <a class="social__burger" href="https://web.telegram.org/" target="_blank"><img src="img/header/icon/icon-telegram-burger.png"
-                                    alt="telegram icon"></a>
-                            <a class="social__burger" href="https://www.etsy.com/" target="_blank"><img src="img/header/icon/icon-etsy-logo-burger.png"
-                                    alt="etsy icon"></a>
+                            <a class="social__burger" href="https://www.youtube.com/" target="_blank"><img
+                                    id="youtube__icon__burger" src="img/header/icon/icon-youtube-burger.png"
+                                    alt="youtube icon"></a>
+                            <a class="social__burger" href="https://vk.com/?lang=uk" target="_blank"><img
+                                    src="img/header/icon/icon-vk-burger.png" alt="vk icon"></a>
+                            <a class="social__burger" href="https://www.facebook.com/" target="_blank"><img
+                                    src="img/header/icon/icon-facebook-burger.png" alt="facebook icon"></a>
+                            <a class="social__burger" href="https://web.telegram.org/" target="_blank"><img
+                                    src="img/header/icon/icon-telegram-burger.png" alt="telegram icon"></a>
+                            <a class="social__burger" href="https://www.etsy.com/" target="_blank"><img
+                                    src="img/header/icon/icon-etsy-logo-burger.png" alt="etsy icon"></a>
                         </li>
                     </ul>
                     <i class="hamburger">
@@ -57,12 +60,11 @@
                 </div>
                 <div class="nav__menu__container">
                     <div class="nav__menu__icon">
-                        <img class="nav__menu__icon menu__icon" src="img/header/icon/icon-search.png"
-                            alt="search icon">
+                        <img class="nav__menu__icon menu__icon" src="img/header/icon/icon-search.png" alt="search icon">
                         <a class="nav__menu__text">Поиск</a>
                     </div>
                     <div class="nav__menu">
-                        <a class="nav__menu__text">Вход/Регистрация</a>
+                        <a id="myBtn" class="nav__menu__text">Вход/Регистрация</a>
                     </div>
                     <div class="nav__menu__icon">
                         <a href="#" class="menu__icon"><i class="fas fa-user"></i></a>
@@ -70,7 +72,49 @@
                         <a href="./index.html" class="nav__link"><i class="fas fa-home"></i></a>
                     </div>
                 </div>
-           </nav>
+                <div id="myModal" class="modal">
+                    <div class="modal__content">
+                        <span class="close">&times;</span>
+                        <form class="modal__form" action="action_page.js">
+                            <div class="container">
+                                <div class="modal__form__text">
+                                    <h1>Форма регистрации</h1>
+                                    <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+                                    <hr>
+                                </div>
+                                <div class="modal__form__container">
+                                    <div>
+                                        <label class="modal__form__label" for="email"><b>Email:</b></label>
+                                        <input class="modal__form__input" type="text" placeholder="Введите вашу почту" name="email" required>
+                                    </div>
+                                    <div>
+                                        <label class="modal__form__label" for="psw"><b>Password:</b></label>
+                                        <input class="modal__form__input" type="password" placeholder="Введите пароль" name="psw" required>
+                                    </div>
+                                    <div>
+                                        <label class="modal__form__label" for="psw-repeat"><b>Repeat password</b></label>
+                                        <input class="modal__form__input" type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+                                    </div>
+                                    <div>
+                                        <label>
+                                            <input id="form__check__input" type="checkbox" checked="checked" name="remember"> Запомнить меня
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form__href__container">
+                                    <p>Создавая учетную запись, вы соглашаетесь с нашим <a id="form__href" href="#">Условия и конфиденциальность</a>.</p>
+                                </div>
+
+
+                                <div class="clearfix">
+                                    <button type="button" id="cancel__button" class="cancelbtn info__button ">Отменить</button>
+                                    <button type="submit" class="signupbtn info__button">Регистрация</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
     <div class="contact__container">
@@ -89,7 +133,9 @@
             </div>
             <div class="contact__card__container">
                 <div class="contact__card">
-                    <div class="card__title"><p>Главный офис</p></div>
+                    <div class="card__title">
+                        <p>Главный офис</p>
+                    </div>
                     <div class="card__content">
                         <div class="card__content__text">
                             <i class="fas fa-map-marker-alt"></i>
@@ -101,7 +147,9 @@
                     </div>
                 </div>
                 <div class="contact__card">
-                    <div class="card__title"><p>Телефоны</p></div>
+                    <div class="card__title">
+                        <p>Телефоны</p>
+                    </div>
                     <div class="card__content">
                         <div class="card__content__text">
                             <i class="fas fa-phone-alt"></i>
@@ -113,7 +161,9 @@
                     </div>
                 </div>
                 <div class="contact__card">
-                    <div class="card__title"><p>E-mail</p></div>
+                    <div class="card__title">
+                        <p>E-mail</p>
+                    </div>
                     <div class="card__content">
                         <div class="card__content__text">
                             <i class="fas fa-envelope"></i>
@@ -125,7 +175,9 @@
                     </div>
                 </div>
                 <div class="contact__card">
-                    <div class="card__title"><p>Доп. адреса</p></div>
+                    <div class="card__title">
+                        <p>Доп. адреса</p>
+                    </div>
                     <div class="card__content">
                         <div class="card__content__text">
                             <i class="fas fa-map-marker-alt"></i>
@@ -138,7 +190,8 @@
                 </div>
             </div>
             <div class="location__container">
-                <div class="location"><img class="location__images" src="/img/contact-page/img/contact-maps.png" alt="location map"></div>
+                <div class="location"><img class="location__images" src="/img/contact-page/img/contact-maps.png"
+                        alt="location map"></div>
             </div>
         </div>
     </div>
@@ -194,11 +247,16 @@
                         <p class="footer__card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Ullamcorper justo, nec, pellentesque.</p>
                         <div class="footer__card__icon__container">
-                            <a href="https://www.youtube.com/" class="card__icon" target="_blank"><i class="fab fa-youtube"></i></a>
-                            <a href="https://vk.com/?lang=uk" class="card__icon" target="_blank"><i class="fab fa-vk"></i></a>
-                            <a href="https://www.facebook.com/" class="card__icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://web.telegram.org/" class="card__icon" target="_blank"><i class="fab fa-telegram-plane"></i></a>
-                            <a href="https://www.etsy.com/" class="card__icon" target="_blank"><i class="fab fa-etsy"></i></a>
+                            <a href="https://www.youtube.com/" class="card__icon" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a href="https://vk.com/?lang=uk" class="card__icon" target="_blank"><i
+                                    class="fab fa-vk"></i></a>
+                            <a href="https://www.facebook.com/" class="card__icon" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://web.telegram.org/" class="card__icon" target="_blank"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                            <a href="https://www.etsy.com/" class="card__icon" target="_blank"><i
+                                    class="fab fa-etsy"></i></a>
                         </div>
                     </div>
                 </div>
@@ -211,4 +269,5 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/9a283d676b.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
