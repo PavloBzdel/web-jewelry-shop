@@ -65,17 +65,18 @@
                         <a class="nav__menu__text">Поиск</a>
                     </div>
                     <div class="nav__menu">
-                        <a id="myBtn" class="nav__menu__text">Вход/Регистрация</a>
+                        <a id="myBtn" class="nav__menu__text">Регистрация</a>
                     </div>
                     <div class="nav__menu__icon">
-                        <a href="#" class="menu__icon"><i class="fas fa-shopping-basket"></i></a>
+                        <a id="myBtnSecond" href="#modal-card" class="menu__icon"><i
+                                class="fas fa-shopping-basket"></i></a>
                         <a href="#" class="menu__icon"><i class="fas fa-heart"></i></a>
                         <a href="./index.html" class="nav__link"><i class="fas fa-home"></i></a>
                     </div>
                 </div>
                 <div id="myModal" class="modal">
                     <div class="modal__content">
-                        <span class="close">&times;</span>
+                        <span class="close__modal__form">&times;</span>
                         <form class="modal__form" action="action_page.js">
                             <div class="container ">
                                 <div class="modal__form__text">
@@ -122,6 +123,27 @@
                         </form>
                     </div>
                 </div>
+               <!-- Modal Cart -->
+               <div id="myModal__cart" class="modal">
+                <div class="modal__content">
+                    <span class="close__modal">&times;</span>
+                    <form class="modal__form" action="action_page.js">
+                        <div class="container ">
+                            <div class="modal__cart__text">
+                                <h1 class="modal__cart__busket">Корзина</h1>
+                                <hr>
+                            </div>
+                            <div class="modal__cart__container"></div>
+                            <div class="cart__sum"></div>
+                                <div class="clearfix">
+                                    <button type="button" id="cancel__button__second"
+                                        class="cancelBtn info__button ">Отменить</button>
+                                    <button type="submit" class="signupbtn info__button">Купить</button>
+                                </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
             </nav>
         </div>
     </header>
@@ -143,23 +165,34 @@
             <div class="product__content__container"></div>
             <div class="product__description__container">
                 <div class="content__info__container">
-                    <div class="info__text"> 
+                    <div class="info__text">
                         <input class="input" type="checkbox" id="expanded">
-                        <p class="info__paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo
-                        porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris.
-                        Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet
-                        faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut
-                        vitae at ornare sed.
-                        Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et
-                        augue. Sed dignissim amet ut vitae at ornare sed.Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor
-                        amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor.
-                        Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et
-                        augue. Sed dignissim amet ut vitae at ornare sed.
-                        Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et
-                        augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id.
-                        Bibendum placerat convallis gravida eu quisque et
-                        augue.</p>
+                        <p class="info__paragraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem
+                            eu commodo
+                            porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit,
+                            mauris.
+                            Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis
+                            at amet
+                            faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim
+                            amet ut
+                            vitae at ornare sed.
+                            Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu
+                            quisque et
+                            augue. Sed dignissim amet ut vitae at ornare sed.Lorem ipsum dolor sit amet, consectetur
+                            adipiscing
+                            elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla
+                            porttitor
+                            amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis
+                            dolor.
+                            Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu
+                            quisque et
+                            augue. Sed dignissim amet ut vitae at ornare sed.
+                            Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu
+                            quisque et
+                            augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus
+                            id.
+                            Bibendum placerat convallis gravida eu quisque et
+                            augue.</p>
                         <label for="expanded" role="button">read more</label>
                     </div>
                     <div class="info__icon__container">
@@ -200,22 +233,40 @@
                 </div>
                 <div class="album__cards__container">
                     <div class="album__card">
-                        <div class="album__card__images"><a href="/product-page.html"><img src="img/product-page/img-album.png" alt="rings"></a></div>
-                        <div class="album__card__title"><p class="card__title">Подвеска</p></div>
-                        <div class="album__card__subtitle"><p class="card__subtitle">Dolce & Gabanna</p></div>
-                        <div class="album__card__button"><button  class="album__button button__card">1 500 $</button></div>
+                        <div class="album__card__images"><a href="/product-page.html"><img
+                                    src="img/product-page/img-album.png" alt="rings"></a></div>
+                        <div class="album__card__title">
+                            <p class="card__title">Подвеска</p>
+                        </div>
+                        <div class="album__card__subtitle">
+                            <p class="card__subtitle">Dolce & Gabanna</p>
+                        </div>
+                        <div class="album__card__button"><button class="album__button button__card">1 500 $</button>
+                        </div>
                     </div>
                     <div class="album__card">
-                        <div class="album__card__images"><a href="/product-page.html"><img src="img/product-page/img-album.png" alt="rings"></a></div>
-                        <div class="album__card__title"><p class="card__title">Подвеска</p></div>
-                        <div class="album__card__subtitle"><p class="card__subtitle">Dolce & Gabanna</p></div>
-                        <div class="album__card__button"><button class="album__button button__card">1 500 $</button></div>
+                        <div class="album__card__images"><a href="/product-page.html"><img
+                                    src="img/product-page/img-album.png" alt="rings"></a></div>
+                        <div class="album__card__title">
+                            <p class="card__title">Подвеска</p>
+                        </div>
+                        <div class="album__card__subtitle">
+                            <p class="card__subtitle">Dolce & Gabanna</p>
+                        </div>
+                        <div class="album__card__button"><button class="album__button button__card">1 500 $</button>
+                        </div>
                     </div>
                     <div class="album__card">
-                        <div class="album__card__images"><a href="/product-page.html"><img src="img/product-page/img-album.png" alt="rings"></a></div>
-                        <div class="album__card__title"><p class="card__title">Подвеска</p></div>
-                        <div class="album__card__subtitle"><p class="card__subtitle">Dolce & Gabanna</p></div>
-                        <div class="album__card__button"><button class="album__button button__card">1 500 $</button></div>
+                        <div class="album__card__images"><a href="/product-page.html"><img
+                                    src="img/product-page/img-album.png" alt="rings"></a></div>
+                        <div class="album__card__title">
+                            <p class="card__title">Подвеска</p>
+                        </div>
+                        <div class="album__card__subtitle">
+                            <p class="card__subtitle">Dolce & Gabanna</p>
+                        </div>
+                        <div class="album__card__button"><button class="album__button button__card">1 500 $</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -298,11 +349,16 @@
                         <p class="footer__card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Ullamcorper justo, nec, pellentesque.</p>
                         <div class="footer__card__icon__container">
-                            <a href="https://www.youtube.com/" class="card__icon" target="_blank"><i class="fab fa-youtube"></i></a>
-                            <a href="https://vk.com/?lang=uk" class="card__icon" target="_blank"><i class="fab fa-vk"></i></a>
-                            <a href="https://www.facebook.com/" class="card__icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://web.telegram.org/" class="card__icon" target="_blank"><i class="fab fa-telegram-plane"></i></a>
-                            <a href="https://www.etsy.com/" class="card__icon" target="_blank"><i class="fab fa-etsy"></i></a>
+                            <a href="https://www.youtube.com/" class="card__icon" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a href="https://vk.com/?lang=uk" class="card__icon" target="_blank"><i
+                                    class="fab fa-vk"></i></a>
+                            <a href="https://www.facebook.com/" class="card__icon" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://web.telegram.org/" class="card__icon" target="_blank"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                            <a href="https://www.etsy.com/" class="card__icon" target="_blank"><i
+                                    class="fab fa-etsy"></i></a>
                         </div>
                     </div>
                 </div>
@@ -316,6 +372,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/9a283d676b.js" crossorigin="anonymous"></script>
+    <script src="js/card.js"></script>
 </body>
 
 </html>

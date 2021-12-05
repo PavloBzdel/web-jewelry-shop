@@ -27,7 +27,7 @@
 
   let modal = document.getElementById("myModal");
   let btn = document.getElementById("myBtn");
-  let span = document.getElementsByClassName("close")[0];
+  let span = document.getElementsByClassName("close__modal__form")[0];
 
 
   btn.onclick = function() {
@@ -45,11 +45,9 @@
     }
   }
 
-  let form = document.getElementsById("cancel__button");
+  let form = document.getElementById("cancel__button");
 
-  window.onclick = function(event) {
-    if (event.target == form) {
-        form.style.display = "none";
-    }
-}
+  form.onclick = function() {
+    modal.style.display = "none"; 
+    } 
 })()

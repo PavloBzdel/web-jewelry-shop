@@ -785,6 +785,13 @@ body{
     top: 3px;
 }
 /* Modal */
+.alert {
+    position: fixed;
+    top: 50px; 
+    width: 50%;
+    left: 25%;
+    z-index: 1051;
+}
 .modal {
     display: none; 
     z-index: 1; 
@@ -805,15 +812,15 @@ body{
   .modal__form{
       background-color: var(--gray-color);
   }
-  .close {
+  .close__modal__form, .close__modal {
     color: var(--white-color);
     float: right;
     font-size: 28px;
     font-weight: bold;
     padding-right: 10px;
   }
-  .close:hover,
-  .close:focus {
+  .close__modal__form:hover, .close__modal:hover,
+  .close__modal__form:focus, .close__modal:focus {
     color: var(--black-color);
     text-decoration: none;
     cursor: pointer;
@@ -858,4 +865,21 @@ body{
   .cancelbtn{
       margin-right: 10px;
   }
- 
+ .modal__cart__border{
+     display: flex;
+    align-items: center;
+     margin-bottom: 10px;
+ }
+ .cart__img, .cart__title, .cart__text{
+     margin-right: 10px;
+     font-size: 20px;
+     text-align: center;
+ }
+ .cart__text{
+     width: 220px;
+ }
+ .button__cart{
+     width: 70px;
+     text-align: center;
+     align-items: center;
+ }

@@ -57,22 +57,25 @@
                         <i class="closeIcon material-icons">close</i>
                     </i>
                 </div>
-                <div class="nav__menu__container">
+                <div class="nav__menu__container" id="navbarNav">
                     <div class="nav__menu__icon">
                         <img class="nav__menu__icon menu__icon" src="img/header/icon/icon-search.png" alt="search icon">
                         <a class="nav__menu__text">Поиск</a>
                     </div>
                     <div class="nav__menu">
-                        <a id="myBtn" class="nav__menu__text">Вход/Регистрация</a>
+                        <a id="myBtn" class="nav__menu__text">Регистрация</a>
                     </div>
                     <div class="nav__menu__icon">
-                        <a href="#" class="menu__icon"><i class="fas fa-shopping-basket"></i></a>
+                        <a id="myBtnSecond" href="#modal-card" class="menu__icon">
+                            <i class="fas fa-shopping-basket"></i>
+                            <span id="cart-badge" class="badge bg-dark"></span>
+                        </a>
                         <a href="#" class="menu__icon"><i class="fas fa-heart"></i></a>
                     </div>
                 </div>
                 <div id="myModal" class="modal">
                     <div class="modal__content">
-                        <span class="close">&times;</span>
+                        <span class="close__modal__form">&times;</span>
                         <form class="modal__form" action="action_page.js">
                             <div class="container ">
                                 <div class="modal__form__text">
@@ -115,6 +118,27 @@
                                         class="cancelbtn info__button ">Отменить</button>
                                     <button type="submit" class="signupbtn info__button">Регистрация</button>
                                 </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Modal Cart -->
+                <div id="myModal__cart" class="modal">
+                    <div class="modal__content">
+                        <span class="close__modal">&times;</span>
+                        <form class="modal__form" action="action_page.js">
+                            <div class="container ">
+                                <div class="modal__cart__text">
+                                    <h1 class="modal__cart__busket">Корзина</h1>
+                                    <hr>
+                                </div>
+                                <div class="modal__cart__container"></div>
+                                <div class="cart__sum"></div>
+                                    <div class="clearfix">
+                                        <button type="button" id="cancel__button__second"
+                                            class="cancelBtn info__button ">Отменить</button>
+                                        <button type="submit" class="signupbtn info__button">Купить</button>
+                                    </div>
                             </div>
                         </form>
                     </div>
@@ -389,6 +413,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/9a283d676b.js" crossorigin="anonymous"></script>
+    <script src="js/card.js"></script>
 </body>
 
 </html>

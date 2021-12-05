@@ -108,7 +108,7 @@ font-family: 'Roboto Condensed', sans-serif; */
 
 .images__product__list{
     width: 270px;
-    height: 400px;
+    height: 400px; 
     object-fit: fill;
   }
 /* media */
@@ -133,6 +133,11 @@ font-family: 'Roboto Condensed', sans-serif; */
         justify-self: center;
         text-align: center;
     }
+    .footer__info__cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 40px;
+    }
 }
 @media(min-width: 541px){
     #drop__down__container{
@@ -147,6 +152,10 @@ font-family: 'Roboto Condensed', sans-serif; */
         display: block;
         padding-bottom: 50px;
         text-align: center;
+    }
+    .footer__info__cards{
+        grid-template-columns: 1fr 1fr;
+        padding-left: 40px;
     }
 }
 @media(min-width: 1024px){
@@ -182,5 +191,9 @@ font-family: 'Roboto Condensed', sans-serif; */
     }
     .content__button__container{
         margin-top: 15px;
+    }
+    .footer__info__cards{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-left: 40px;
     }
 }
